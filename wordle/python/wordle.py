@@ -387,7 +387,7 @@ def main(argv):
         x = play_bots({argv[2]: bot}, wordlist, wordlist_secrets, n)
         return x
     elif 'katiebot' == c:
-        fn_wordlist = "katieswordlist.txt"
+        fn_wordlist = "katiewordlist.txt"
         bot = load_bot(argv[2])
         n = 0
         if 4 <= len(argv):
